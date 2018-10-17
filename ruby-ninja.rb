@@ -49,3 +49,12 @@ def input_and_output
 end
 
 puts input_and_output
+
+@myFirstArray = []
+@myFirstArray = ["a", "b", "c", "d", "e", 1, 2, 3, 4]
+puts @myFirstArray.last
+puts @myFirstArray.first
+@myFirstArray[1] = "joe"
+@myFirstArray[2] = 3
+@myFirstArray.push(true)
+puts @myFirstArray[3].class
