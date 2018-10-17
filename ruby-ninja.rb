@@ -29,3 +29,13 @@ puts "variable_d equals #{@variable_d} "
 puts "variable_e equals #{@variable_e}"
 @variable_d = @variable_e
 puts "variable_d now equals #{@variable_d}"
+
+@christine = "Hi, I'm Christine"
+@likesTo = "long walks on the beach, kinda."
+@christine_and_likesTo = "#{@christine} and I like #{@likesTo}"
+puts @christine_and_likesTo
+
+@variable_g = "2"
+@gToNumber = 2
+
+puts @variable_g + @gToNumber.to_s
