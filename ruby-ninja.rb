@@ -39,3 +39,13 @@ puts @christine_and_likesTo
 @gToNumber = 2
 
 puts @variable_g + @gToNumber.to_s
+
+def input_and_output
+    puts "Please enter your name:"
+    users_name = gets.chomp
+    puts "Name a hobby you like."
+    users_hobby = gets.chomp
+    puts "#{users_name} likes #{users_hobby}"
+end
+
+puts input_and_output
