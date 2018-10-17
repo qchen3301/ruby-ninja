@@ -58,3 +58,14 @@ puts @myFirstArray.first
 @myFirstArray[2] = 3
 @myFirstArray.push(true)
 puts @myFirstArray[3].class
+
+@myFavoriteAnimals = {
+    Edgar: "Donkey",
+    Boris: "Spider",
+    Adam: "Ocelot",
+    Eli: "Snake"
+}
+@myFavoriteAnimals[:Edgar] = "Bear"
+@favoriteMovie = Hash.new
+@favoriteMovie[:name] = "Blade Runner"
+puts @favoriteMovie
