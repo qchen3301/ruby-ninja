@@ -12,3 +12,12 @@ end
 
 puts false_statement
 puts true_statement
+
+@variable_my_life = nil
+def run_my_life
+    puts @variable_my_life 
+    puts "#{@variable_my_life} was here"
+    
+end
+
+puts run_my_life
